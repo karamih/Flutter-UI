@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 // import 'designs/login_signup_1/login.dart';
 // import 'designs/login_signup_1/signup.dart';
 
-import 'designs/login_signup_2/home.dart';
-import 'designs/login_signup_2/login.dart';
-import 'designs/login_signup_2/signup.dart';
+// import 'designs/login_signup_2/home.dart';
+// import 'designs/login_signup_2/login.dart';
+// import 'designs/login_signup_2/signup.dart';
+
+import 'designs/find_location//ui.dart';
 
 
 void main (){
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: ExplorePage(),
     );
   }
 }
