@@ -8,7 +8,9 @@ import 'package:flutter/material.dart';
 // import 'designs/login_signup_2/login.dart';
 // import 'designs/login_signup_2/signup.dart';
 
-import 'designs/find_location//ui.dart';
+// import 'designs/find_location//ui.dart';
+
+import 'designs/travel/main.dart';
 
 
 void main (){
@@ -22,7 +24,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ExplorePage(),
+      debugShowCheckedModeBanner: false,
+      home: TravelPage(),
     );
   }
 }

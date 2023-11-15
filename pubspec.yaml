@@ -62,6 +62,7 @@ flutter:
   assets:
     - assets/images/login_signup_2/
     - assets/images/find_location/
+    - assets/images/travel/
     #   - images/a_dot_ham.jpeg
 
     # An image asset can refer to one or more resolution-specific "variants", see
