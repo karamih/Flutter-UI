@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'designs/user_profile/userProfile.dart';
 
 // import 'designs/login_signup_1/home.dart';
 // import 'designs/login_signup_1/login.dart';
@@ -10,7 +11,7 @@ import 'package:flutter/material.dart';
 
 // import 'designs/find_location//ui.dart';
 
-import 'designs/travel/main.dart';
+// import 'designs/travel/main.dart';
 
 
 void main (){
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TravelPage(),
+      home: UserProfile(),
     );
   }
 }
